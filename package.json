@@ -1,0 +1,13 @@
+{
+  "name": "com.mincheol.utils",
+  "version": "1.0.0",
+  "displayName": "Utils",
+  "description": "Reusable utility scripts featuring common design patterns for Unity development.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Mincheol Kwon"
+  },
+  "dependencies": {
+  "com.unity.addressables": "2.5.0 - 3.0.0"
+}
+}
