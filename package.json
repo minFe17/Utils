@@ -1,4 +1,4 @@
-{
+qj{
   "name": "com.mincheol.utils",
   "version": "1.0.0",
   "displayName": "Utils",
@@ -8,6 +8,6 @@
     "name": "Mincheol Kwon"
   },
   "dependencies": {
-  "com.unity.addressables": "2.5.0 - 3.0.0"
+  "com.unity.addressables": "2.5.0"
 }
 }
