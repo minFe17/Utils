@@ -19,4 +19,5 @@ Unity 프로젝트에서 사용 가능한 디자인 패턴 및 어드레서블 �
 3. 아래 Git URL을 입력하고 `Add` 버튼을 누릅니다:
 
 https://git-scm.com/downloads
+
 https://github.com/minFe17/Utils.git#main
