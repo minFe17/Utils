@@ -1,5 +1,8 @@
 {
   "name": "Utils",
-  "rootNamespace": "Utils",        
-  "autoReferenced": true           
+  "references": [
+    "Unity.Addressables"
+  ],
+  "autoReferenced": true,
+  "rootNamespace": "Utils"
 }
