@@ -17,7 +17,7 @@ namespace Utils
                 return pool as ObjectPool<TEnum>;
 
             ObjectPool<TEnum> newPool = new ObjectPool<TEnum>();
-            newPool.Init(transform); // �θ� Transform ����
+            newPool.Init(transform);
             _objectPools[key] = newPool;
             return newPool;
         }
