@@ -1,7 +1,8 @@
 {
-  "name": "Utils",
+  "name": "Mincheol.Utils",
   "references": [
-    "Unity.Addressables"
+    "Unity.Addressables",
+    "Unity.ResourceManager"
   ],
   "autoReferenced": true,
   "rootNamespace": "Utils"
