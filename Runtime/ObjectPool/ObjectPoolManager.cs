@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using UnityEngine;
 
 namespace Utils
 {
@@ -30,12 +29,12 @@ namespace Utils
         public GameObject Pull
             <TEnum>(TEnum type) where TEnum : Enum
         {
-            return GetOrCreatePool<TEnum>().Push(type);
+            return GetOrCreatePool<TEnum>().Pull(type);
         }
 
         public void Push<TEnum>(TEnum type, GameObject obj) where TEnum : Enum
         {
-            GetOrCreatePool<TEnum>().Pull(type, obj);
+            GetOrCreatePool<TEnum>().Push(type, obj);
         }
     }
 }
