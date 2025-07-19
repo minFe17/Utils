@@ -27,12 +27,13 @@ namespace Utils
             GetOrCreatePool<TEnum>().RegisterFactory(type, factory);
         }
 
-        public GameObject Push<TEnum>(TEnum type) where TEnum : Enum
+        public GameObject Pull
+            <TEnum>(TEnum type) where TEnum : Enum
         {
             return GetOrCreatePool<TEnum>().Push(type);
         }
 
-        public void Pull<TEnum>(TEnum type, GameObject obj) where TEnum : Enum
+        public void Push<TEnum>(TEnum type, GameObject obj) where TEnum : Enum
         {
             GetOrCreatePool<TEnum>().Pull(type, obj);
         }
