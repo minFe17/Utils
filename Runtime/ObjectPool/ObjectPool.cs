@@ -31,7 +31,7 @@ namespace Utils
                 _factories[key] = factory;
         }
 
-        public GameObject Push(Enum type)
+        public GameObject Pull(Enum type)
         {
             TEnum key = (TEnum)type;
             Queue<GameObject> queue;
@@ -54,7 +54,7 @@ namespace Utils
             return returnObject;
         }
 
-        public void Pull(Enum type, GameObject obj)
+        public void Push(Enum type, GameObject obj)
         {
             TEnum key = (TEnum)type;
             Queue<GameObject> queue;
@@ -66,6 +66,5 @@ namespace Utils
             queue.Enqueue(obj);
             obj.transform.SetParent(_parent);
         }
-
     }
 }
